@@ -9,6 +9,7 @@
 ### Pre-requisites
 
 - [Docker](https://www.docker.com/products/docker-desktop/)
+- [PostgreSQL](https://www.postgresql.org/download/)
 
 ### Setup
 
@@ -18,6 +19,7 @@
 cp ./frontend/.env.example ./frontend/.env
 cp ./backend/.env.example ./backend/.env
 cp ./db/.env.example ./db/.env
+cp ./.env.example ./.env
 ```
 
 *As of right now, the example `.env` configuration should work as-is*
